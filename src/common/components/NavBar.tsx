@@ -49,7 +49,7 @@ class NavBar extends React.Component<WithStyles<typeof styles>, State> {
               variant="h6"
               color="inherit"
             >
-              Magic the Gathering Drafter
+              React Starter Project
             </Typography>
             <Button color="inherit">Login</Button>
           </Toolbar>
