@@ -37,18 +37,10 @@ class NavBar extends React.Component<WithStyles<typeof styles>, State> {
       <div className={this.props.classes.root}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton
-              className={this.props.classes.menuButton}
-              color="inherit"
-              aria-label="Menu"
-            >
+            <IconButton className={this.props.classes.menuButton} color="inherit" aria-label="Menu">
               <MenuIcon />
             </IconButton>
-            <Typography
-              className={this.props.classes.grow}
-              variant="h6"
-              color="inherit"
-            >
+            <Typography className={this.props.classes.grow} variant="h6" color="inherit">
               React Starter Project
             </Typography>
             <Button color="inherit">Login</Button>

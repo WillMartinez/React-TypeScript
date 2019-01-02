@@ -6,7 +6,7 @@ export default createMuiTheme({
     background: { paper: '#fff', default: '#fafafa' },
     primary: {
       light: '#7986cb',
-      main: 'rgba(63, 181, 103, 1)',
+      main: '#3f51b5',
       dark: '#303f9f',
       contrastText: '#fff'
     },
@@ -29,7 +29,6 @@ export default createMuiTheme({
       hint: 'rgba(0, 0, 0, 0.38)'
     }
   },
-  
 
   typography: {
     useNextVariants: true
